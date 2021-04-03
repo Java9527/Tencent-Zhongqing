@@ -31,7 +31,7 @@ jobs:
           node-version: 12.x
       - name: npm install
         run: |
-          #cd ~/Scripts
+          cd ~/Scripts
           npm install
       - name: '运行 【腾讯新闻】'
         if: env.TXNEWS_COOKIE
